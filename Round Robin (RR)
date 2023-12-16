@@ -9,7 +9,7 @@
 #include "./PrintTable.h"
 
 /**
- * [rr_calculate_waiting_time RR 
+ * rr_calculate_waiting_time RR 
  */
 void rr_calculate_waiting_time(Process *p, int len, Quantum q)
 {
@@ -67,7 +67,7 @@ void rr_calculate_waiting_time(Process *p, int len, Quantum q)
 }
 
 /**
- * [rr_calculate_turnaround_time 
+ * rr_calculate_turnaround_time 
  */
 void rr_calculate_turnaround_time(Process *p, int len)
 {
@@ -79,7 +79,7 @@ void rr_calculate_turnaround_time(Process *p, int len)
 }
 
 /**
-*[rr_print_gantt_chart 
+*rr_print_gantt_chart 
 */
 
 void rr_print_gantt_chart(Process *p, int len, Quantum q)
