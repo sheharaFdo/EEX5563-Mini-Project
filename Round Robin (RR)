@@ -78,6 +78,10 @@ void rr_calculate_turnaround_time(Process *p, int len)
 		
 }
 
+/**
+*[rr_print_gantt_chart 
+*/
+
 void rr_print_gantt_chart(Process *p, int len, Quantum q)
 {
 	int i, j;
