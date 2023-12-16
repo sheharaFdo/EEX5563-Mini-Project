@@ -28,8 +28,11 @@ A feedback mechanism may be used to change the process's priority based on a pro
 
     Advantages of Multilevel Queue Scheduling
 (a).Multilevel queue scheduling improves the response time of processes by assigning higher priority to interactive processes, which ensures that these processes are executed first before any other processes.
+
 (b). Multilevel queue scheduling also improves equality as it makes sure that all processes get a chance of execution regardless of their priority. This is done by dividing the processes into different queues, and each queue has its own priority level set.
+
 (c). It helps in reducing starvation which refers to a situation where a process is never able to run because it is always preempted by other higher-priority processes. By assigning lower priority to processes that have been running for a long time, we can reduce the chances of starvation.
+
 (d). Multilevel queue scheduling can be customized in order to meet the specific needs of a system. For example, the number of queues and the priority levels of each queue can be adjusted to optimize the performance of the system.
 
     Disadvantages of Multilevel Queue Scheduling
