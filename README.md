@@ -27,6 +27,7 @@ To guarantee that an interactive procedure is completed promptly, its priority m
 A feedback mechanism may be used to change the process's priority based on a process's behaviour over time.
 
     Advantages of Multilevel Queue Scheduling
+   
 (a).Multilevel queue scheduling improves the response time of processes by assigning higher priority to interactive processes, which ensures that these processes are executed first before any other processes.
 
 (b). Multilevel queue scheduling also improves equality as it makes sure that all processes get a chance of execution regardless of their priority. This is done by dividing the processes into different queues, and each queue has its own priority level set.
