@@ -7,7 +7,7 @@
 #include "./Process.h"
 
 /**
- * [compare_by_return_time 
+ * compare_by_return_time 
  */
 int compare_by_return_time(const void *a, const void *b)
 {
@@ -29,7 +29,7 @@ int compare_by_return_time(const void *a, const void *b)
 }
 
 /**
- * [quick_sort_by_return_time 
+ * quick_sort_by_return_time 
  */
 void quick_sort_by_return_time(Process p[], int len)
 {
@@ -37,7 +37,7 @@ void quick_sort_by_return_time(Process p[], int len)
 }
 
 /**
- * [merge 
+ * merge 
  */
 void merge(Process arr[], int left, int mid, int right)
 {
@@ -81,7 +81,7 @@ void merge(Process arr[], int left, int mid, int right)
 }
 
 /**
- * [merge_sort_by_arrive_time 
+ * merge_sort_by_arrive_time 
  */
 void merge_sort_by_arrive_time(Process arr[], int left, int right)
 {
