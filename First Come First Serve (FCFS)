@@ -131,7 +131,7 @@ void FCFS(Process *p, int len)
 	printf("\tAverage Response Time    : %-2.2lf\n\n", (double)total_response_time / (double)len);
 
 	print_table(p, len);
-	// print_table 함수 호출로 데이터 표 출력
+	// print_table
 }
 
 #endif
